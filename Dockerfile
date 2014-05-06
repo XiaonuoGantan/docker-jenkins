@@ -9,4 +9,3 @@ RUN ln -sf /jenkins /root/.jenkins
 ENTRYPOINT ["java", "-jar", "/opt/jenkins.war"]
 EXPOSE 8080
 VOLUME ["/jenkins"]
-CMD [""]
